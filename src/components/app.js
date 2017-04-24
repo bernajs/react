@@ -5,12 +5,13 @@ import BookList from '../containers/book-list'
 import CardDetail from '../containers/card-detail'
 import CardList from '../containers/card-list'
 
+import SearchBar from '../containers/search_bar'
+
 export default class App extends Component {
   render() {
     return (
       <div>
-      <CardList></CardList>
-      <CardDetail></CardDetail>
+        <SearchBar></SearchBar>
       </div>
     );
   }
